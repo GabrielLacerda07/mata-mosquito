@@ -1,0 +1,58 @@
+html{
+    cursor: url('../imagens/mata_mosca.png') 30 30, auto;
+}
+body{
+    background-image: url('../imagens/halloween.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.back-app{
+    background: url('../imagens/halloween01.jpg');
+}
+/*Tamanho do mosquito*/
+.morcego1{
+    width: 80px;
+}
+.morcego2{
+    width: 100px;
+}
+.morcego3{
+    width: 120px;
+}
+/*Lado em que o mosquito vai está virado*/
+.ladoA{
+    transform: scaleX(1);
+}
+.ladoB{
+    transform: scaleX(-1);
+}
+/*Painel das vidas*/
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: 1px solid #fff;
+    background: #fff;
+    opacity: 0.9;
+}
+.vidas{
+    float: left;
+}
+.cronometro{
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*Img do Central*/
+.img-central{
+    margin-top: 25vh;
+    width: 280px;
+}
+/*Img do game-hover*/
+#nivel{
+    padding: 5px 20px;
+    border-radius: 6px;
+}
